@@ -1,13 +1,11 @@
 #include "LedControl.h"
 #include "binary.h"
-
 /*
  DIN connects to pin 12
  CLK connects to pin 11
  CS connects to pin 10 
 */
 LedControl lc=LedControl(12,11,10,1);
-
 // delay time between faces
 unsigned long delaytime=1000;
 
@@ -60,7 +58,6 @@ void drawFaces(){
   lc.setRow(0,7,hf[7]);
   delay(delaytime);
 }
-
 void loop(){
   drawFaces();
 }
