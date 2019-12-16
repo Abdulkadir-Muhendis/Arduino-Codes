@@ -7,7 +7,6 @@
 #define dc   9
 #define rst  8
 
-
 // create an instance of the library
 TFT TFTscreen = TFT(cs, dc, rst);
 
