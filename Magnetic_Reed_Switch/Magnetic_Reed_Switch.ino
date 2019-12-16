@@ -9,8 +9,8 @@ void setup(){
   Serial.begin(9600);
 }
 
-void loop(){
-  
+void loop()
+{
   if (digitalRead(switchReed)==HIGH){
     digitalWrite(ledOpen, LOW);
     digitalWrite(ledClose, HIGH);
