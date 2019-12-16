@@ -4,7 +4,8 @@ int redLED = 7;
 // you can adjust the threshold value
 int thresholdValue = 800;
 
-void setup(){
+void setup()
+{
   pinMode(rainPin, INPUT);
   pinMode(greenLED, OUTPUT);
   pinMode(redLED, OUTPUT);
