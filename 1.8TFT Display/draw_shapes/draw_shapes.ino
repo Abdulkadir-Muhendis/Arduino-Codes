@@ -11,7 +11,6 @@
 TFT TFTscreen = TFT(cs, dc, rst);
 
 void setup() {
-
   //initialize the library
   TFTscreen.begin();
 
