@@ -8,7 +8,6 @@
 LedControl lc=LedControl(12,11,10,1);
 // delay time between faces
 unsigned long delaytime=1000;
-
 // happy face
 byte hf[8]= {B00111100,B01000010,B10100101,B10000001,B10100101,B10011001,B01000010,B00111100};
 // neutral face
