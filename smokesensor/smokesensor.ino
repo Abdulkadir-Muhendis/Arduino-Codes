@@ -1,4 +1,3 @@
-
 int smokeA0 = A0;
 // Your threshold value
 int sensorThres = 400;
