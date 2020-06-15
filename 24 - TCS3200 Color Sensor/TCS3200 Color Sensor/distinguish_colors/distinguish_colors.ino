@@ -4,7 +4,6 @@
 #define S2 6
 #define S3 7
 #define sensorOut 8
-
 // Stores frequency read by the photodiodes
 int redFrequency = 0;
 int greenFrequency = 0;
